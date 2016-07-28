@@ -1,0 +1,77 @@
+
+
+body {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+hr {
+	margin: 0px;
+}
+
+.navbar {
+	background-color: #BDBDBD;
+}
+
+.navbar-nav {
+	background-color: #E6E6E6;
+	margin: 0px;
+}
+
+.navbar-collapse {
+	padding: 0px;
+}
+
+.navbar-brand {
+	font-size: 2em;
+	color: #333 !important; 
+}
+
+#bs-example-navbar-collapse-1 a {
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.container-fluid .row div {
+	background-color: #BDBDBD;
+	padding: 0px 20px 20px 20px;
+}
+
+h1 {
+	font-size: 1.8em;
+	margin: 20px 0px;
+}
+
+h3 {
+	font-size: 1.6em;
+	margin: 10px 0px 15px;
+}
+
+p {
+	margin: 0px;
+}
+
+@media (min-width: 992px) {
+	.col-md-4 {
+		width: 31.33333333%;
+		margin: 1%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-sm-6 {
+		width: 46%;
+		margin: 2%;
+	}
+
+	.col-sm-12 {
+		width: 98%;
+		margin: 1%;
+	}
+}
+
+@media (max-width: 767px) {
+	.col-xs-12 {
+		width: 94%;
+		margin: 2% 3%;
+	}
+}
